@@ -15,7 +15,7 @@ $num1 = $_POST['num1'];
 $num2 = $_POST['num2'];
 $op = $_POST['op'];
 
-print"<br>Hello $fName $lName <br>";
+print"<br>Hello $fName $lName, $gender, $num1, $num2, $op<br>";
 
 ?>
 
