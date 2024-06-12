@@ -35,12 +35,16 @@
         <input type="text" name="name" id="name" value="name">
         <input type="submit" name="submit" value="submit">
     </fieldset>
-    <b>Please enter a number</b>
-    <input type="text" name="num1">
-    <b>Please enter a number</b>
-    <input type="text" name="num2">
-    <b>Please enter a operator + - *</b>
-    <input type="text" name="op">
+    <fieldset>
+        <b>Please enter a number</b>
+        <input type="text" name="num1">
+        <br>
+        <b>Please enter a number</b>
+        <input type="text" name="num2">
+        <br>
+        <b>Please enter a operator + - *</b>
+        <input type="text" name="op">
+    </fieldset>
 </form>
 <hr>
 <!-- Line to submit to blackgoosebistro-->
