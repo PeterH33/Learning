@@ -33,7 +33,6 @@
         name
         <br>
         <input type="text" name="name" id="name" value="name">
-        <input type="submit" name="submit" value="submit">
     </fieldset>
     <fieldset>
         <b>Please enter a number</b>
@@ -44,7 +43,16 @@
         <br>
         <b>Please enter a operator + - *</b>
         <input type="text" name="op">
+        <input type="radio" name="op1" id="op" value="+">
+        <label for="op1">+</label>
+        <input type="radio" name="op2" id="op" value="-">
+        <label for="op2">-</label>
+        <input type="radio" name="op3" id="op" value="*">
+        <label for="op3">*</label>
+        <input type="radio" name="op4" id="op" value="/">
+        <label for="op4">/</label>
     </fieldset>
+    <input type="submit" name="submit" value="submit">
 </form>
 <hr>
 <!-- Line to submit to blackgoosebistro-->
