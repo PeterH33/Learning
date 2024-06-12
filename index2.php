@@ -30,9 +30,11 @@
     </fieldset>
     <br>
     <fieldset>
-        name
+        First Name
+        <input type="text" name="fName">
         <br>
-        <input type="text" name="name" id="name" value="name">
+        Last Name
+        <input type="text" name="lName">
     </fieldset>
     <fieldset>
         <b>Please enter a number</b>
