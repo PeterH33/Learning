@@ -7,7 +7,7 @@
     <?php
    /* This line is just what is used in class to show that the submit works properly and you are getting input sent over properly
    */
-    print_r($_POST)
+    print_r($_POST);
 $gender = $_POST['gender'];
 $fName = $_POST['fName'];
 $lName = $_POST['lName'];
